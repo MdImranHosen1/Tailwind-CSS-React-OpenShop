@@ -11,6 +11,7 @@ function App() {
           
           <Route index element={<Dashboard></Dashboard>}/>
           <Route path="products" element={<Products></Products>}/>
+          
         </Route>  
         <Route path='login' element={<div>Login</div>}/>
       </Routes>
